@@ -91,7 +91,7 @@ steps:
       fi
 # [END tf-apply]   
 # [START tf-destroy]
-- id: 'tf apply'
+- id: 'tf destroy'
   name: 'hashicorp/terraform:1.0.0'
   entrypoint: 'sh'
   args: 
