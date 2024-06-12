@@ -24,7 +24,7 @@ resource "google_compute_firewall" "allow-http" {
 
   allow {
     protocol = "tcp"
-
+    protocol = "icmp"
     ports    = ["80", "443"]
 
   }
